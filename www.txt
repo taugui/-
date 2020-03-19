@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>海报</title>
+    </head>
+    <body>
+        <img src="http://photogz.photo.store.qq.com/psc?/V10qIBZY3mfZgC/u0qUMsilGdkhXscKj.lHLnHV7rjw1OTgntuqmD7kFmwvG3HRTHIi4tbZpsH4FWIEyZUmFjO3sUMeS2*B06Bxww!!/b&bo=OASgBTgEoAURECc!">
+        <h1>Wang Ji Yuan</h1>
+            <p>A present student</p>
+        <h2>About</h2>
+            <p>Born in WangLiCun</p>
+        <h2>Like</h2>
+            <p>Favorite games：<a href="https://i04piccdn.sogoucdn.com/c5426c74c62de2ac">刺激战场</a></p>
+            <p>Favorite movies：<a href="https://www.iqiyi.com/v_19rrhofx0k.html?vfm=2008_aldbd">《小时代》</a></p>
+            <p>Favorite stars：<a href="http://img1.imgtn.bdimg.com/it/u=170369458,209157657&fm=26&gp=0.jpg">黄子韬</a></p>
+            <p>Favorite colors：<a href="http://img0.imgtn.bdimg.com/it/u=1367514726,3913442374&fm=26&gp=0.jpg">天蓝色</a></p>
+        <h2>Ten years later</h2>
+            <p>Hope to work in school</p>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+img{
+    width:300px;
+    height:350px;
+    }
+h1{
+    color:red;
+    }
+h2{
+    color:#0000FF;
+    }
+a:hover
+{
+    background-color:#B22222;
+}
+body
+  { 
+    background-image:url('http://photogz.photo.store.qq.com/psc?/V10qIBZY3mfZgC/u0qUMsilGdkhXscKj.lHLnHV7rjw1OTgntuqmD7kFmwvG3HRTHIi4tbZpsH4FWIEyZUmFjO3sUMeS2*B06Bxww!!/b&bo=OASgBTgEoAURECc!');
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+p{
+    color:yellow;
+    } 
