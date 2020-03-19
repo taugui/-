@@ -1,0 +1,23 @@
+img{
+    width:300px;
+    height:350px;
+    }
+h1{
+    color:red;
+    }
+h2{
+    color:#0000FF;
+    }
+a:hover
+{
+    background-color:#B22222;
+}
+body
+  { 
+    background-image:url('http://photogz.photo.store.qq.com/psc?/V10qIBZY3mfZgC/u0qUMsilGdkhXscKj.lHLnHV7rjw1OTgntuqmD7kFmwvG3HRTHIi4tbZpsH4FWIEyZUmFjO3sUMeS2*B06Bxww!!/b&bo=OASgBTgEoAURECc!');
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+p{
+    color:yellow;
+    } 
