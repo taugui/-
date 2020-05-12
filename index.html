@@ -1,63 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- 元信息 -->
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <header>
-      <!-- 搜索框 -->
-      <img src="logo.png" />
-      <input type="search" />
+      <h1><strong>科蚪</strong>俱乐部</h1>
+      <div class="login">
+          <h3>请登录</h3>
+          <p>用户名:</p>
+          <input class="username">
+          <p>密码:</p>
+          <input class="password">
+          <button>登录</button>
+          <input  id="button" type="button" value="显示用户名和密码" onclick="buttonClick();"> 
+          <div class="message"></div>
+      </div>
 
-      <!-- 导航块（链接到其他页面），也具有语义！-->
-      <nav>
-        <!-- 这是指向其它页面的链接-->
-        <a href="#">页面1</a>
-        <a href="#">页面2</a>
-        <a href="#">页面3</a>
-        <a href="#">页面4</a>
-      </nav>
-
-      <!-- 另一个链接，指向“帐户Account”页面-->
-      <a href="account">
-        <!-- 在链接里放一个图片-->
-        <img src="avatar.png" />
-      </a>
-    </header>
-    <h2></h2>
-    <section>
-      <img src="cover-1.png" />
-      <figcaption>1000多个经验</figcaption>
-      <!-- 二级标题-->
-      <h2>冲浪经验</h2>
-
-      <p>
-        新段
-      </p>
-    </section>
-
-    <section>
-      <img src="cover-2.png" />
-      <figcaption>1000多个经验</figcaption>
-
-      <!-- 二级标题-->
-      <h2>冲浪经验</h2>
-
-      <p>
-        欢迎
-      </p>
-    </section>
-
-    <section>
-      <img src="cover-3.png" />
-      <figcaption>1000多个经验</figcaption>
-
-      <!-- 二级标题-->
-      <h2>冲浪经验</h2>
-
-      <p>
-        新段
-      </p>
-    </section>
+      <script src="jquery-1.9.1.min.js"></script>
+      <script src="script.js"></script>
   </body>
 </html>
