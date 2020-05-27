@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>加入照片</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <h2> 年会嘉宾名单</h2>
-
-    <p>
-        姓名: <input class="guestName">
-        <button class="addButton">添加</button>
-    </p>
-
-    <h4>目前嘉宾人数: <span class="numberOfGuests"></span></h4>
-	<h2>目前嘉宾名单</h2>
-    <ul class="guestList">
-
-    </ul>
-
-      <script src="jquery-1.9.1.min.js"></script>
-      <script src="script.js"></script>
-  </body>
+    <head>
+        <title>科蚪银行</title>
+        <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div class="bankName">科蚪银行</div>
+        <div class="ledger">
+            <div class="heading">
+                <p>姓名：</p>
+                <p>存入蚪币数：</p>
+            </div>
+        </div>
+        <div class="heading">
+            <p class="number">交易笔数:</p>
+            <p class="total">存款总额: </p>
+        </div>
+        <div class="inputs">
+            <div>姓名:<input class="accountName"></div>
+            <div>财富:<input class="accountDeposit">蚪币 </div>
+        </div>
+        <div class="buttonDiv">
+            <button class="newDeposit">新存款</button>
+            <button class="update">最近的一笔交易</button>
+        </div>
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
